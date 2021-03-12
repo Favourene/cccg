@@ -47,12 +47,13 @@ h1,h2,h3{
 }
 .nav{
     height: 0rem;
-    min-height: 10vh;
+    min-height: 20vh;
     overflow: hidden;
     position: absolute;
     width: 100%;
     transition: height 1s ease-in-out;
     z-index: 1000;
+    background: white;
 }
 .nav .nav-menu{    
     justify-content: space-between;
@@ -88,35 +89,33 @@ h1,h2,h3{
 }
 .nav ul li{
     list-style: none;
-    padding: 20px 15px;
+    padding: 40px 15px;
     font-size: 18px;
     position: relative;
     font-family: 'sansita';
 }
 .nav ul a{
     text-decoration: none;
-    color: #fff;
+    color: #201768;
 }
 .nav ul li:hover{
-    color:#ce0f3d;
+    color:#201768;
 }
 
 .nav ul a li#active {
-    color:#ce0f3d;
+    color:#201768;
 }
 
 .nav .nav-brand{
     padding-top: 8px;
-    padding-left: 20px;
+    padding-left: 40px;
 }
-.nav .nav-brand h1{
-    font-size: 30px;
-    color: #fff;
-    font-family: 'sansita_bold';
+.nav .nav-brand img{
+    width: 80px;
 }
 .nav ul a button{
     padding: 10px 20px;
-    background: #ce0f3d;
+    background: #201768;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -124,8 +123,8 @@ h1,h2,h3{
 }
 .nav ul a button:hover{
     background: none;
-    border: 1px solid #ce0f3d;
-    color: #ce0f3d;
+    border: 1px solid #201768;
+    color: #201768;
 }
 @media  screen and (max-width: 1000px){
     .nav .nav-menu, .nav ul{
@@ -159,10 +158,13 @@ h1,h2,h3{
         color: #252424;
     }
     .nav ul a li#active {
-        color:#ce0f3d;
+        color:#201768;
     }
     .nav .toggle-collapse .toggle-icons i{
         color: #252424;
+    }
+    .nav .nav-brand img {
+        width: 40px;
     }
    
 }
@@ -184,6 +186,11 @@ h1,h2,h3{
 @media  screen and (min-height: 1000px){
     .nav{
         min-height: 7vh;
+    }
+}
+@media screen and (max-width: 320px){
+    .nav .nav-brand img {
+        width: 30px;
     }
 }
 
@@ -217,7 +224,7 @@ h1,h2,h3{
 }
 .a .swiper-slide #b1 p:nth-child(1),.a .swiper-slide #b2 p:nth-child(1){
     font-size: 25px;
-    color: #ce0f3d;
+    color: #bcb9d1;
     font-weight: 600;
     padding-bottom: 10px;
     text-transform: uppercase;
@@ -228,7 +235,7 @@ h1,h2,h3{
 }
 .a .swiper-slide button{
     padding: 10px 20px;
-    background: #ce0f3d;
+    background: #201768;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -239,8 +246,8 @@ h1,h2,h3{
 }
 .a .swiper-slide button:hover{
     background: none;
-    border: 1px solid #ce0f3d;
-    color: #ce0f3d;
+    border: 1px solid #201768;
+    color: #201768;
 }
 .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
     height: 20px;
@@ -275,12 +282,12 @@ h1,h2,h3{
     font-weight: 100px;
 }
 .b .mom1 .left #one p:nth-child(3){
-    color: #ce0f3d;
+    color: #201768;
     padding-bottom: 5px;
     font-size: 20px;
 }
 .b .mom1 .left #one div{
-    background: #ce0f3d;
+    background: #201768;
     width: 20%;
     height: 1px;
     margin-bottom: 10px;
@@ -293,7 +300,7 @@ h1,h2,h3{
 .b .mom1 .right{
     width: 30%;
     color: #fff;
-    background: #ce0f3d;
+    background: #201768;
     padding: 70px 20px;
     margin-top: -4%;
     z-index: 2;
@@ -325,7 +332,7 @@ h1,h2,h3{
     padding: 100px 0 50px 0;
 }
 .b .mom2 .right p:nth-child(1){
-    color: #ce0f3d;
+    color: #201768;
     font-size: 15px;
     font-weight: bold;
     font-family: 'oswald_bold';
@@ -343,7 +350,7 @@ h1,h2,h3{
 }
 .b .mom2 .right button{
     padding: 10px 20px;
-    background: #ce0f3d;
+    background: #201768;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -354,15 +361,15 @@ h1,h2,h3{
 }
 .b .mom2 .right button:hover{
     background: none;
-    border: 1px solid #ce0f3d;
-    color: #ce0f3d;
+    border: 1px solid #201768;
+    color: #201768;
 }
 .c .mom3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     color: white;
-    background: #ce0f3d;
+    background: #201768;
     text-align: center;
     padding: 50px 20px;
 }
@@ -389,7 +396,7 @@ h1,h2,h3{
     padding-bottom: 20px;
 }
 .d #p{
-    color: #ce0f3d;
+    color: #201768;
     font-size: 15px;
     font-weight: bold;
     font-family: 'oswald_bold';
@@ -424,11 +431,11 @@ h1,h2,h3{
 }
 .d .mom .right h2{
     font-size: 35px;
-    color: #ce0f3d;
+    color: #201768;
     padding-bottom: 20px;
 }
 .d .mom .right p{
-    color: #ce0f3d;
+    color: #201768;
     font-weight: 600;
     font-size: 18px;
     padding-bottom: 10px;
@@ -445,7 +452,7 @@ h1,h2,h3{
 }
 .d .mom .right button{
     padding: 10px 20px;
-    background: #ce0f3d;
+    background: #201768;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -459,22 +466,22 @@ h1,h2,h3{
 }
 .d .mom .right button:hover{
     background: none;
-    border: 1px solid #ce0f3d;
-    color: #ce0f3d;
+    border: 1px solid #201768;
+    color: #201768;
 }
 .d .mom .right button#but{
     background: none;
-    border: 1px solid #ce0f3d;
-    color: #ce0f3d;
+    border: 1px solid #201768;
+    color: #201768;
 }
 .d .mom .right button#but:hover{
-    background: #ce0f3d;
+    background: #201768;
     color: #fff;
     border:none;
 }
 .e{
     text-align: center;
-    background: #9e0c2f;
+    background: #100b33;
     padding: 150px 0 50px 0;
 }
 .e #p{
@@ -512,7 +519,7 @@ h1,h2,h3{
     font-size: 30px;
     margin-top: -20px;
     color: #fff;
-    background: #ce0f3d;
+    background: #201768;
     padding: 10px;
     border-radius: 50%;
 }
@@ -551,7 +558,7 @@ h1,h2,h3{
     font-family: 'oswald_bold';
     text-transform: uppercase;
     padding-bottom: 10px;
-    color: #ce0f3d;
+    color: #201768;
 }
 .f h1{
     font-size: 40px;
@@ -565,7 +572,7 @@ h1,h2,h3{
 .f .mom  #one{
     width: 32%;
     text-align: left;
-    border-bottom: 2px solid #ce0f3d;
+    border-bottom: 2px solid #201768;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding-bottom: 20px;
@@ -587,7 +594,7 @@ h1,h2,h3{
     padding-right: 10px;
     padding-bottom: 10px;
     font-size: 14px;
-    color: #ce0f3d;
+    color: #201768;
 }
 .f .mom  #one #gap h2{
     font-size: 25px;
@@ -601,7 +608,7 @@ h1,h2,h3{
 }
 .f .mom  #one #gap button{
     padding: 10px 20px;
-    background: #ce0f3d;
+    background: #201768;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -612,8 +619,8 @@ h1,h2,h3{
 }
 .f .mom  #one #gap button:hover{
     background: none;
-    border: 1px solid #ce0f3d;
-    color: #ce0f3d;
+    border: 1px solid #201768;
+    color: #201768;
 }
 .g{
     padding: 50px 20px;
@@ -625,7 +632,7 @@ h1,h2,h3{
     font-family: 'oswald_bold';
     text-transform: uppercase;
     padding-bottom: 10px;
-    color: #ce0f3d;
+    color: #201768;
 }
 .g h1{
     font-size: 40px;
@@ -665,11 +672,11 @@ h1,h2,h3{
     padding-right: 10px;
 }
 .g .mom .right span{
-    color: #ce0f3d;
+    color: #201768;
 }
 .g .mom .right button{
     padding: 10px 20px;
-    background: #ce0f3d;
+    background: #201768;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -680,8 +687,8 @@ h1,h2,h3{
 }
 .g .mom .right button:hover{
     background: none;
-    border: 1px solid #ce0f3d;
-    color: #ce0f3d;
+    border: 1px solid #201768;
+    color: #201768;
 }
 .h{
     text-align: center;
@@ -695,7 +702,7 @@ h1,h2,h3{
     font-family: 'oswald_bold';
     text-transform: uppercase;
     padding-bottom: 10px;
-    color: #ce0f3d;
+    color: #201768;
 }
 .h h1{
     font-size: 40px;
@@ -739,7 +746,7 @@ h1,h2,h3{
     font-size: 14px;
 }
 .i #one #two a:hover{
-    color: #ce0f3d;
+    color: #201768;
 }
 .i #one #two div{
    padding-right: 20px;
@@ -761,7 +768,7 @@ h1,h2,h3{
     font-family: 'oswald_bold';
     text-transform: uppercase;
     padding-bottom: 10px;
-    color: #ce0f3d;
+    color: #201768;
 }
 .j h1{
     font-size: 40px;
@@ -792,7 +799,7 @@ h1,h2,h3{
 }
 .j .mom .pa .two div{
     width: 80%;
-    background: #ce0f3d;
+    background: #201768;
     color: white;
     padding: 10px 0;
     border-radius: 10px;
@@ -836,7 +843,7 @@ h1,h2,h3{
 }
 .k .one #two button{
     padding: 10px 20px;
-    background: #ce0f3d;
+    background: #201768;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -847,8 +854,8 @@ h1,h2,h3{
 }
 .k .one #two button:hover{
     background: none;
-    border: 1px solid #ce0f3d;
-    color: #ce0f3d;
+    border: 1px solid #201768;
+    color: #201768;
 }
 .d .mom2{
     display: flex;
@@ -863,11 +870,11 @@ h1,h2,h3{
 }
 .d .mom2 div#active{
     border: none;
-    background: #ce0f3d;
+    background: #201768;
     color: white;
 }
 .d .mom2 div:hover{
-    background: #ce0f3d;
+    background: #201768;
     color: #fff;
     border: none;
 }
@@ -885,11 +892,11 @@ h1,h2,h3{
 }
 .f .mom2 div#active{
     border: none;
-    background: #ce0f3d;
+    background: #201768;
     color: white;
 }
 .f .mom2 div:hover{
-    background: #ce0f3d;
+    background: #201768;
     color: #fff;
     border: none;
 }
@@ -1031,12 +1038,12 @@ h1,h2,h3{
     padding-bottom: 7px;
 }
 .l .left #five .mom .right2 p#red{
-    color: #ce0f3d;
+    color: #201768;
     font-size: 14px;
 }
 .l .left #five .mom .right2 button{
     padding: 5px 10px;
-    background: #ce0f3d;
+    background: #201768;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -1047,8 +1054,8 @@ h1,h2,h3{
 }
 .l .left #five .mom .right2 button:hover{
     background: none;
-    border: 1px solid #ce0f3d;
-    color: #ce0f3d;
+    border: 1px solid #201768;
+    color: #201768;
 }
 .l #six h1{
     font-size: 30px;
@@ -1081,7 +1088,7 @@ h1,h2,h3{
 }
 .l #six form button{
     padding: 5px 10px;
-    background: #ce0f3d;
+    background: #201768;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -1092,8 +1099,8 @@ h1,h2,h3{
 }
 .l #six form button:hover{
     background: none;
-    border: 1px solid #ce0f3d;
-    color: #ce0f3d;
+    border: 1px solid #201768;
+    color: #201768;
 }
 
 
@@ -1141,7 +1148,7 @@ h1,h2,h3{
     color: #40415e4f;
 }
 .l .right #two li:hover{
-    color: #ce0f3d;
+    color: #201768;
 }
 .l .right #three h1{
     font-size: 25px;
@@ -1220,7 +1227,7 @@ h1,h2,h3{
     margin-bottom: 20px;
 }
 .m .mom .left i{
-    background: #ce0f3d;
+    background: #201768;
     padding: 20px;
     color: #fff;
     border-radius: 50%;
@@ -1237,7 +1244,7 @@ h1,h2,h3{
 }
 .n .left{
     width: 50%;
-    background: #ce0f3d;
+    background: #201768;
     padding: 30px 50px;
     color: #fff;
 }
@@ -1306,7 +1313,7 @@ h1,h2,h3{
 .n .left form button{
     padding: 10px 20px;
     background:#fff;
-    color:  #ce0f3d;
+    color:  #201768;
     border: none;
     border-radius: 8px;
     margin-top: 20px;
@@ -1351,7 +1358,7 @@ footer #one .mom{
 }
 footer #one .mom div{
     background: #232323;
-    color: #ce0f3d;
+    color: #bcb9d1;
     font-size: 20px;
     padding: 10px;
     border-radius: 50%;
@@ -1380,7 +1387,7 @@ footer #one .mom1 .right h2{
     padding-bottom: 10px;
 }
 footer #one .mom1 .right h2:hover{
-   color: #ce0f3d;
+   color: #201768;
    cursor: pointer;
 }
 footer #one .mom1 .right div{
@@ -1402,7 +1409,7 @@ footer #one a li{
     margin-top:10px;
 }
 footer #one a:hover{
-    color: #ce0f3d;
+    color: #201768;
 }
 
 
