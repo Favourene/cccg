@@ -103,7 +103,7 @@ h1,h2,h3{
 }
 
 .nav ul a li#active {
-    color:#201768;
+    color:#6451d9;
 }
 
 .nav .nav-brand{
@@ -123,8 +123,8 @@ h1,h2,h3{
 }
 .nav ul a button:hover{
     background: none;
-    border: 1px solid #201768;
-    color: #201768;
+    border: 1px solid #6451d9;
+    color: #6451d9;
 }
 @media  screen and (max-width: 1000px){
     .nav .nav-menu, .nav ul{
@@ -249,8 +249,8 @@ h1,h2,h3{
 }
 .a .swiper-slide button:hover{
     background: none;
-    border: 1px solid #201768;
-    color: #201768;
+    border: 1px solid #6451d9;
+    color: #6451d9;
 }
 .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
     height: 20px;
