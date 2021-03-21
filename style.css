@@ -482,6 +482,25 @@ h1,h2,h3{
     color: #fff;
     border:none;
 }
+.d .mom .right button#but2{
+    width: 100%;
+    background: none;
+    border: 1px solid #201768;
+    color: #201768;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+.d .mom .right button#but2:hover{
+    background: #201768;
+    color: #fff;
+    border:none;
+}
+.d .mom .right button#but2 audio{
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+}
+
 .e{
     text-align: center;
     background: #100b33;
@@ -863,6 +882,9 @@ h1,h2,h3{
 .d .mom2{
     display: flex;
     justify-content: center;
+}
+.d .mom2 a{
+    text-decoration: none;
 }
 .d .mom2 div{
     border: 1px solid #40415eaf;
