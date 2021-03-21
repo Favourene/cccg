@@ -489,6 +489,7 @@ h1,h2,h3{
     color: #201768;
     font-size: 20px;
     padding: 10px 5px;
+    margin-right: 0px;
 }
 .d .mom .right button#but2:hover{
     background: #201768;
