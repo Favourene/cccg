@@ -307,6 +307,34 @@ h1,h2,h3{
     padding: 70px 20px;
     margin-top: -4%;
     z-index: 2;
+    text-align: center;
+}
+.b .mom1 .right form{
+    width: 100%;
+}
+.b .mom1 .right form input{
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+.b .mom1 .right form button{
+    padding: 10px 20px;
+    background: #fff;
+    color: #201768;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 20px;
+    outline: none;
+    
+}
+.b .mom1 .right form button:hover{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
 }
 .b .mom1 .right h1{
     padding-bottom: 20px;
@@ -1089,45 +1117,10 @@ h1,h2,h3{
     color: #000000cc;
     font-family: 'oswald';
 }
-.l #six form{
-    background: #f4f4f4;
-    padding: 50px;
+.l #six audio{
+    width: 100%;
 }
-.l #six form p{
-    font-size: 16px;
-    padding: 20px 0;
-}
-.l #six form input{
-    width:100%;
-    font-size: 16px;
-    padding: 10px;
-    border: 1px solid #40415e44;
-    border-radius: 5px;
-}
-.l #six form textarea{
-    width:100%;
-    font-size: 16px;
-    padding: 10px;
-    border: 1px solid #40415e44;
-    border-radius: 5px;
-    resize: none;
-}
-.l #six form button{
-    padding: 5px 10px;
-    background: #201768;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    margin-top: 10px;
-    font-size: 13px;
-    outline: none;
-    margin-right: 30px;
-}
-.l #six form button:hover{
-    background: none;
-    border: 1px solid #201768;
-    color: #201768;
-}
+
 
 
 
@@ -1633,9 +1626,7 @@ footer #one a:hover{
     .l .left #one h1,.l .left #two h1,.l .left #five h1,.l #six h1{
         font-size: 25px;
     }
-    .l #six form{
-        padding: 50px 20px;
-    }
+    
     .l .right #one input{
         margin-top: 20px;
     }
