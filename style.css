@@ -134,7 +134,6 @@ h1,h2,h3{
         display: initial;
     }
     .nav ul li:hover{
-        color: white;
         border-bottom: unset;
     }
     .nav ul #active{
@@ -142,9 +141,6 @@ h1,h2,h3{
     }
     .nav ul #active a{
         color: unset;
-    }
-    .nav ul #active a:hover{
-        color: white;
     }
     .nav{
         background: #fff;
@@ -185,10 +181,15 @@ h1,h2,h3{
         padding: 20px 15px;
     }
 }
+@media screen and (max-width: 500px){
+    .nav {
+        min-height: 10vh;
+    }
+}
 /*---------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media  screen and (min-height: 1000px){
     .nav{
-        min-height: 7vh;
+        min-height: 9vh;
     }
 }
 @media screen and (max-width: 320px){
@@ -315,7 +316,7 @@ h1,h2,h3{
 .b .mom1 .right form input{
     width: 100%;
     padding: 10px 5px;
-    font-size: 20px;
+    font-size: 13px;
     outline: none;
     border-radius: 10px;
     border: none;
@@ -588,11 +589,11 @@ h1,h2,h3{
 .e .conta .tex{
     width: 200px;
 }
-.e .p{
+.e .p2{
     color: gray;
     margin-bottom: 20px;
 }
-.e .p1{
+.e .p2{
     font-weight: 400;
 }
 .e .tex h3{
@@ -989,7 +990,7 @@ h1,h2,h3{
     padding-bottom: 10px;
 }
 .l .left #two{
-    padding-bottom: 30px;
+    padding: 20px 0;
 }
 .l .left #two div{
     width: 100%;
@@ -1003,7 +1004,7 @@ h1,h2,h3{
     font-family: 'oswald';
     color: #000000cc;
     font-weight: 100;
-    padding: 20px 0;
+    padding: 20px  0;
 }
 .l .left #two p{
     color: #40415e;
@@ -1011,49 +1012,18 @@ h1,h2,h3{
     line-height: 25px;
     padding-bottom: 15px;
 }
-.l .left #three{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-}
-.l .left #three a{
-    text-decoration: none;
-    color: black;
-    border: 1px solid #40415e7c;
-    padding: 5px 7px;
-    border-radius: 5px;
-    font-size: 12px;
-    margin-bottom: 10px;
-    margin-right: 7px;
-}
-.l .left #three a:hover{
-    border: 1px solid black;
-}
-.l .left #four{
-    display: flex;
-    justify-content: space-between;
-    background: #f4f4f4;
-    padding: 20px;
-}
-.l .left #four .left1{
-    width: 20%;
-}
-.l .left #four .left1 img{
-    width: 100%;
-}
-.l .left #four .right1{
-    width: 75%;
-}
+
+
 .l .left #four .right1 h1{
     font-size: 25px;
-    padding-bottom: 20px;
+    padding: 10px 0;
     color: #000000cc;
 }
 .l .left #four .right1 p{
     color: #40415e;
     font-size: 18px;
     line-height: 25px;
-    padding-bottom: 15px;
+    padding: 0 0 10px 0;
 }
 .l .left #five{
     padding: 50px 20px;
@@ -1120,8 +1090,6 @@ h1,h2,h3{
 .l #six audio{
     width: 100%;
 }
-
-
 
 
 .l .right{
@@ -1348,7 +1316,30 @@ h1,h2,h3{
 .o{
     height: 700px;
 }
+.p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    background-color:#6351d90a;
+    padding-top: 20px;
+    color: #100b33;
+}
+.p .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: max-content;
+  }
+  .p .swiper-container-free-mode > .p .swiper-wrapper{
+    transition-timing-function : linear;
+  }
+  .p .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
 
+  }
 footer{
     background: #1a1a1a;
     color: #fff;
@@ -1477,6 +1468,9 @@ footer #one a:hover{
     .b .mom2 .left img,.d .mom .left img{
         height: unset;
     }
+    .b .mom2 .right{
+        text-align: center;
+    }
     .c .mom3 div:nth-child(1) h1{
         font-size: 18px;
     }
@@ -1489,12 +1483,18 @@ footer #one a:hover{
     .d{
         padding-bottom: 20px;
     }
+    .d .mom .right div{
+        text-align: center;
+    }
     .f .mom #one{
         width: 48%;
         margin-bottom: 10px;
     }
     .g .mom{
         padding-bottom: 20px;
+    }
+    .g .mom .right div{
+        text-align: center;
     }
     .h .mom div{
         width: 33.3%;
@@ -1579,6 +1579,10 @@ footer #one a:hover{
     .b .mom1 .left #one{
         width: 100%;
         margin-bottom: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .e{
         margin-top: 30px 0;
@@ -1595,6 +1599,9 @@ footer #one a:hover{
     .f .mom #one{
         width: 100%;
         margin-bottom: 25px;
+    }
+    .f .mom #one #gap article{
+        text-align: center;
     }
     .h .mom div{
         width: 50%;
